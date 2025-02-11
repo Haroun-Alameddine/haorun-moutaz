@@ -6,18 +6,15 @@ if (num % 2) == 0:
 else:
    print("{0} is Odd".format(num))
 
-
-# Program to display calendar of the given month and year
-
-# importing calendar module
-import calendar
-
-yy = int(input("Enter a Year: "))  # year
-mm = int(input("Enter a Month: "))    # month
-
-# To take month and year input from the user
-# yy = int(input("Enter year: "))
-# mm = int(input("Enter month: "))
-
-# display the calendar
-print(calendar.month(yy, mm))
+   students = ["Alice", "Bob", "Charlie", "David"]
+num_students = len(students)
+print(f"Number of students: {num_students}")
+num_students = int(input("Enter the number of students: "))
+print(f"Total students: {num_students}")
+students = {
+    "101": "Alice",
+    "102": "Bob",
+    "103": "Charlie",
+    "104": "David"
+}
+print(f"Number of students: {len(students)}")
